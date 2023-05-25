@@ -1,0 +1,20 @@
+{
+  "name": "gym-app-backend",
+  "version": "1.0.0",
+  "description": "gym app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohid Ansari",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "mongoose": "^5.12.13",
+    "mongoose-sequence": "^5.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
